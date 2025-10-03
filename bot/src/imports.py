@@ -1,7 +1,6 @@
-import discord_ios
 import glob
 import os
-import pathlb
+import pathlib
 import time
 
 from typing import (
@@ -44,7 +43,7 @@ from discord.ext.commands import (
 )
 
 from loguru import logger
-from asyncpg import Pool
+from asyncpg import Pool, create_pool
 from collections import defaultdict
 from psutil import Process
 import psutil

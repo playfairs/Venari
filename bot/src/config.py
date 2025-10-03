@@ -1,0 +1,3 @@
+class DISCORD:
+    PREFIX = "owl."
+    
